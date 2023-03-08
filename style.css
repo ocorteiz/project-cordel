@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url('fonts/xilosa_.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 50px 10px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    font-family: 'Passion One', cursive, sans-serif;
+    font-size: 10vh;
+}
+
+header > p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4vh;
+}
+
+header > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: 'Xilosa', sans-serif;
+}
+
+.container {
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    
+}
+
+#img01 {
+    background-image: url(imgs/background001.jpg);
+}
+
+#img02 {
+    background-image: url(imgs/background002.jpg);
+}
+
+section.container > p {
+    background-color: rgba(0, 0, 0, 0.459);
+    max-width: 50%;
+    line-height: 1.5em;
+    padding: 10px;
+}
