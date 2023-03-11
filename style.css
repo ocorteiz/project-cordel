@@ -51,6 +51,7 @@ section {
 
 .container {
     color: white;
+    display: inline-block;
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
